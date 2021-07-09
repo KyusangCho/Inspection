@@ -48,21 +48,13 @@
             <div class="card-bg preload-img" data-src="images/pictures/20s.jpg"></div>
         </div>
         
-        
-        <div class="card card-style">
-            <p class="content">
-                Classic tabs, these are not a special element but sometimes a very needed one to have. Styled to
-                match the current highlight.
-            </p>
-        </div>
-
         <div class="card card-style">
             <div class="content mb-2">
                 <h3>Recently Check List</h3>
                 <p>
                     Please see the list on the website if you need the whole data.
                 </p>
-                <table class="table table-borderless text-left rounded-sm shadow-l search-box" style="overflow: hidden;">
+                <table id="dtBasicExample" class="table table-borderless text-left rounded-sm shadow-l" style="overflow: hidden;">
                     <thead>
                         <tr class="bg-gray-dark">
                             <th scope="col" class="color-theme">Factory</th>
@@ -158,4 +150,13 @@
 
 <script type="text/javascript" src="scripts/bootstrap.min.js"></script>
 <script type="text/javascript" src="scripts/custom.js"></script>
+<script>
+    // Basic example
+    $(document).ready(function () {
+        $('#dtBasicExample').DataTable({
+            "searching": false // false to disable search (or any other option)
+        });
+        $('.dataTables_length').addClass('bs-select');
+    });
+</script>
 </body>
