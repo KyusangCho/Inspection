@@ -54,8 +54,8 @@
                 <h3>General Information</h3>
 
                 <div class="input-style has-borders has-icon validate-field mb-4">
-                    <i class="fa fa-user"></i>
-                    <input type="name" class="form-control validate-name" id="form1" placeholder="Name">
+                    <i class="fa fa-home"></i>
+                    <input type="FactoryName" class="form-control validate-name" id="form1" placeholder="FactoryName">
                     <label for="form1" class="color-highlight">Factory Name</label>
                     <i class="fa fa-times disabled invalid color-red-dark"></i>
                     <i class="fa fa-check disabled valid color-green-dark"></i>
@@ -63,7 +63,7 @@
                 </div>
 
                 <div class="input-style has-borders no-icon mb-4">
-                    <input type="date" value="2030-12-31" value="2030-12-31" max="2030-01-01" min="2021-01-01" class="form-control validate-text" id="form6" placeholder="Phone">
+                    <input type="date" value="2030-12-31" value="2030-12-31" max="2030-01-01" min="2021-01-01" class="form-control validate-text" id="form6" placeholder="date">
                     <label for="form6" class="color-highlight">Select Date</label>
                     <i class="fa fa-check disabled valid me-4 pe-3 font-12 color-green-dark"></i>
                     <i class="fa fa-check disabled invalid me-4 pe-3 font-12 color-red-dark"></i>
@@ -71,7 +71,7 @@
 
                 <div class="input-style has-borders has-icon validate-field mb-4">
                     <i class="fa fa-user"></i>
-                    <input type="name" class="form-control validate-name" id="form1" placeholder="Name">
+                    <input type="Auditor" class="form-control validate-name" id="form1" placeholder="Auditor">
                     <label for="form1" class="color-highlight">Auditor</label>
                     <i class="fa fa-times disabled invalid color-red-dark"></i>
                     <i class="fa fa-check disabled valid color-green-dark"></i>
@@ -79,7 +79,7 @@
                 </div>
 
                 <div class="input-style has-borders validate-field mb-4">
-                    <input type="name" class="form-control validate-name" id="form1" placeholder="Name">
+                    <input type="Sewingline" class="form-control validate-name" id="form1" placeholder="Sewingline">
                     <label for="form1" class="color-highlight">Sewing line</label>
                     <i class="fa fa-times disabled invalid color-red-dark"></i>
                     <i class="fa fa-check disabled valid color-green-dark"></i>
@@ -87,7 +87,7 @@
                 </div>
 
                 <div class="input-style has-borders validate-field mb-4">
-                    <input type="name" class="form-control validate-name" id="form1" placeholder="Name">
+                    <input type="Style" class="form-control validate-name" id="form1" placeholder="Style">
                     <label for="form1" class="color-highlight">Style No.</label>
                     <i class="fa fa-times disabled invalid color-red-dark"></i>
                     <i class="fa fa-check disabled valid color-green-dark"></i>
@@ -95,7 +95,7 @@
                 </div>
 
                 <div class="input-style has-borders no-icon mb-4">
-                    <label for="form5" class="color-highlight">Select A Client</label>
+                    <label for="form5" class="color-highlight"></label>
                     <select id="form5">
                         <option value="default" disabled selected>Select a Client</option>
                         <option value="iOS">Express</option>
@@ -111,7 +111,7 @@
                 </div>
 
                 <div class="input-style has-borders validate-field mb-4">
-                    <input type="name" class="form-control validate-name" id="form1" placeholder="Name">
+                    <input type="Fileno" class="form-control validate-name" id="form1" placeholder="Fileno">
                     <label for="form1" class="color-highlight">File No.</label>
                     <i class="fa fa-times disabled invalid color-red-dark"></i>
                     <i class="fa fa-check disabled valid color-green-dark"></i>
@@ -119,9 +119,8 @@
                 </div>
 
                 <div class="input-style has-borders no-icon mb-4">
-                    <label for="form5" class="color-highlight">Select A System</label>
                     <select id="form5">
-                        <option value="default" disabled selected>Select a System</option>
+                        <option value="default" disabled selected></option>
                         <option value="iOS">PATRON</option>
                         <option value="Linux">ACCESORIOS</option>
                         <option value="MacOS">MUESTRA</option>
@@ -148,64 +147,47 @@
 
             </div>
         </div>
-
+                
         <div class="card card-style">
             <div class="content mb-0">
-                <h3 class="bolder">Minimalist Fields</h3>
-                <p>
-                    These boxes will react to them when you type or select a value.
-                </p>
+                <h3>Details</h3>
 
-                <div class="input-style no-borders has-icon validate-field mb-4">
-                    <i class="fa fa-user"></i>
-                    <input type="name" class="form-control validate-name" id="form1a" placeholder="Name">
-                    <label for="form1a" class="color-highlight">Name</label>
-                    <i class="fa fa-times disabled invalid color-red-dark"></i>
-                    <i class="fa fa-check disabled valid color-green-dark"></i>
-                    <em>(required)</em>
-                </div>
-                
-                <div class="input-style no-borders no-icon validate-field mb-4">
-                    <input type="email" class="form-control validate-text" id="form2a" placeholder="Email">
-                    <label for="form2a" class="color-highlight">Email</label>
-                    <i class="fa fa-times disabled invalid color-red-dark"></i>
-                    <i class="fa fa-check disabled valid color-green-dark"></i>
-                    <em>(required)</em>
-                </div>
-                
-                <div class="input-style no-borders no-icon validate-field mb-4">
-                    <input type="password" class="form-control validate-text" id="form3a" placeholder="Password">
-                    <label for="form3a" class="color-highlight">Password</label>
-                    <i class="fa fa-times disabled invalid color-red-dark"></i>
-                    <i class="fa fa-check disabled valid color-green-dark"></i>
-                    <em>(required)</em>
-                </div>
-                
-                <div class="input-style no-borders no-icon validate-field mb-4">
-                    <input type="url" class="form-control validate-text" id="form4a" placeholder="Website">
-                    <label for="form4a" class="color-highlight">Website</label>
+                <div class="input-style input-style-always-active has-borders no-icon validate-field mb-4">
+                    <input type="code" class="form-control validate-name" id="form1ab" placeholder="CODE">
+                    <label for="form1ab" class="color-theme opacity-50 text-uppercase font-700 font-10">CODE</label>
                     <i class="fa fa-times disabled invalid color-red-dark"></i>
                     <i class="fa fa-check disabled valid color-green-dark"></i>
                     <em>(required)</em>
                 </div>
 
-                <div class="input-style no-borders no-icon validate-field mb-4">
-                    <input type="tel" class="form-control validate-text" id="form4a" placeholder="Phone">
-                    <label for="form4aa" class="color-highlight">Phone</label>
+                <div class="pb-3"></div>
+
+                <div class="input-style input-style-always-active has-borders has-icon validate-field mb-4">
+                    <i class="fa fa-user color-blue-dark"></i>
+                    <input type="nombre" class="form-control validate-name" id="form1ab" placeholder="NOMBRE">
+                    <label for="form1ab" class="color-theme opacity-50 text-uppercase font-700 font-10">NOMBRE</label>
                     <i class="fa fa-times disabled invalid color-red-dark"></i>
                     <i class="fa fa-check disabled valid color-green-dark"></i>
                     <em>(required)</em>
                 </div>
 
-                <div class="input-style no-borders no-icon mb-4">
-                    <label for="form5a" class="color-highlight">Select A Value</label>
-                    <select id="form5a">
-                        <option value="default" disabled selected>Select a Value</option>
-                        <option value="iOS">iOS</option>
-                        <option value="Linux">Linux</option>
-                        <option value="MacOS">MacOS</option>
-                        <option value="Android">Android</option>
-                        <option value="Windows">Windows</option>
+
+                <div class="pb-3"></div>
+
+                <div class="input-style has-borders no-icon mb-4">
+                    <label for="form5" class="color-highlight">OPERATION</label>
+                    <select id="form5">
+                        <option value="default" disabled selected></option>
+                        <option value="iOS">PATRON</option>
+                        <option value="Linux">ACCESORIOS</option>
+                        <option value="MacOS">MUESTRA</option>
+                        <option value="Android">SERVICIO A MAQUINARIA</option>
+                        <option value="Windows">PAQUETE TECNICO</option>
+                        <option value="1">MUESTRA DE OPERACIÓN</option>
+                        <option value="2">HOJA DE TRABAJO</option>
+                        <option value="3">CONTROL DE METALES</option>
+                        <option value="4">LIMPIEZA, VOLUMEN TRABAJO</option>
+                        <option value="5">OTROS STANDARDS.</option>
                     </select>
                     <span><i class="fa fa-chevron-down"></i></span>
                     <i class="fa fa-check disabled valid color-green-dark"></i>
@@ -213,69 +195,16 @@
                     <em></em>
                 </div>
 
-                <div class="input-style no-borders no-icon mb-4">
-                    <input type="date" value="2030-12-31" max="2030-01-01" min="2021-01-01" class="form-control validate-text" id="form6a" placeholder="Phone">
-                    <label for="form6a" class="color-highlight">Select Date</label>
-                    <i class="fa fa-check disabled valid me-4 pe-3 font-12 color-green-dark"></i>
-                    <i class="fa fa-check disabled invalid me-4 pe-3 font-12 color-red-dark"></i>
-                </div>
-                
-                <div class="input-style no-borders no-icon mb-4">
-                    <textarea id="form7a" placeholder="Enter your message"></textarea>
-                    <label for="form7a" class="color-highlight">Enter your Message</label>
-                    <em class="mt-n3">(required)</em>
-                </div>
+                <div class="pb-3"></div>
 
-            </div>
-        </div>
-        
-        <div class="card card-style">
-            <div class="content mb-0">        
-                <h3>Active & Colors</h3>
-                <p>
-                    These boxes will react to them when you type or select a value.
-                </p>
-                
-                <div class="input-style input-style-always-active has-borders has-icon validate-field mb-4">
-                    <i class="fa fa-user color-blue-dark"></i>
-                    <input type="name" class="form-control validate-name" id="form1ab" placeholder="John">
-                    <label for="form1ab" class="color-theme opacity-50 text-uppercase font-700 font-10">First Name</label>
-                    <i class="fa fa-times disabled invalid color-red-dark"></i>
-                    <i class="fa fa-check disabled valid color-green-dark"></i>
-                    <em>(required)</em>
-                </div>
-                
+                <form class="range-slider bottom-15 range-slider-icons">
+                    <label for="" class="color-highlight">Pcs Pull</label>
+                    <i class="fa fa-range-icon-1 fa-volume-down color-theme"></i>
+                    <i class="fa fa-range-icon-2 fa-volume-up color-theme"></i>
+                    <input class="ios-slider" type="range" value="50">
+                </form>
+
                 <div class="pb-3"></div>
-                
-                <div class="input-style input-style-always-active has-borders no-icon validate-field mb-4">
-                    <input type="name" class="form-control validate-name" id="form1ab" placeholder="Doeson">
-                    <label for="form1ab" class="color-theme opacity-50 text-uppercase font-700 font-10">Last Name</label>
-                    <i class="fa fa-times disabled invalid color-red-dark"></i>
-                    <i class="fa fa-check disabled valid color-green-dark"></i>
-                    <em>(required)</em>
-                </div>
-                
-                <div class="pb-3"></div>
-                
-                <div class="input-style input-style-always-active no-borders has-icon validate-field mb-4">
-                    <i class="fa fa-at color-highlight"></i>
-                    <input type="mail" class="form-control validate-name" id="form1ac" placeholder="name@domain.com">
-                    <label for="form1ac" class="color-highlight text-uppercase font-700 font-10">Enter your Email</label>
-                    <i class="fa fa-times disabled invalid color-red-dark"></i>
-                    <i class="fa fa-check disabled valid color-green-dark"></i>
-                    <em>(required)</em>
-                </div>
-                
-                <div class="pb-3"></div>
-                
-                <div class="input-style input-style-always-active no-borders no-icon validate-field mb-4">
-                    <input type="tel" class="form-control validate-name" id="form1ac" placeholder="+1 234 567 8902">
-                    <label for="form1ac" class="color-green-dark text-uppercase font-700 font-10">Phone Number</label>
-                    <i class="fa fa-times disabled invalid color-red-dark"></i>
-                    <i class="fa fa-check disabled valid color-green-dark"></i>
-                    <em>(required)</em>
-                </div>
-                
 
             </div>
         </div>
