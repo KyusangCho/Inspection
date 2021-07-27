@@ -53,7 +53,7 @@
             <div class="content mb-0">
                 <h3>General Information</h3>
 
-                <div class="input-style has-borders has-icon validate-field mb-4">
+                <div class="input-style no-borders has-icon validate-field mb-4">
                     <i class="fa fa-home"></i>
                     <input type="FactoryName" class="form-control validate-name" id="form1" placeholder="FactoryName">
                     <label for="form1" class="color-highlight">Factory Name</label>
@@ -224,8 +224,9 @@
                 <div class="row">
                     <div class="col-6">
                         <div class="mx-auto">
+                            <label for="form5" class="color-highlight">Pull</label>
                             <div class="stepper rounded-s float-end">
-                                <label for="form5" class="color-highlight">Pull</label>
+
                                 <a href="#" class="stepper-sub"><i class="fa fa-minus color-red-dark"></i></a>
                                 <input type="number" min="1" max="99" value="10">
                                 <a href="#" class="stepper-add"><i class="fa fa-plus color-green-dark"></i></a>
@@ -235,8 +236,8 @@
                     </div>
                     <div class="col-6">
                         <div class="mx-auto">
+                            <label for="form5" class="color-highlight">Defect</label>
                             <div class="stepper rounded-s float-start">
-                                <label for="form5" class="color-highlight">Defect</label>
                                 <a href="#" class="stepper-sub"><i class="fa fa-minus color-theme opacity-40"></i></a>
                                 <input type="number" min="1" max="99" value="5">
                                 <a href="#" class="stepper-add"><i class="fa fa-plus color-theme opacity-40"></i></a>
@@ -252,17 +253,9 @@
                 <div class="input-style has-borders no-icon mb-4">
                     <label for="form5" class="color-highlight">AQL</label>
                     <select id="form5">
-                        <option value="default" disabled selected></option>
-                        <option value="iOS">OVERLOCK</option>
-                        <option value="Linux">COLLARETERA</option>
-                        <option value="MacOS">PLANA</option>
-                        <option value="Android">CERRADORA</option>
-                        <option value="Windows">OJALERA</option>
-                        <option value="1">SNAPS</option>
-                        <option value="2">MULTIAGUJA</option>
-                        <option value="3">ATRACADORA</option>
-                        <option value="4">FUSIONADORA</option>
-                        <option value="5">TRANSFER</option>
+                        <option value="iOS">1.50</option>
+                        <option value="Linux">2.5</option>
+                        <option value="MacOS">4</option>
                     </select>
                     <span><i class="fa fa-chevron-down"></i></span>
                     <i class="fa fa-check disabled valid color-green-dark"></i>
@@ -280,17 +273,17 @@
                 <div class="row">
                     <div class="col-4">
                         <div class="mx-auto">
-                            <a href="#" class="btn btn-m rounded-sm shadow-xl bg-highlight color-white font-900 text-uppercase">GUARDAR</a>
+                            <a href="#" class="btn btn-m btn-full mb-3 rounded-xs text-uppercase font-900 shadow-s bg-blue-light">GUARDAR</a>
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="mx-auto">
-                            <a href="#" class="btn btn-m rounded-sm shadow-xl bg-highlight color-white font-900 text-uppercase">GUARDAR</a>
+                            <a href="#" class="btn btn-m btn-full mb-3 rounded-xs text-uppercase font-900 shadow-s bg-red-light">Cancelar</a>
                         </div>
                     </div>
                     <div class="col-4">
                         <div class="mx-auto">
-                            <a href="#" class="btn btn-m rounded-sm shadow-xl bg-highlight color-white font-900 text-uppercase">ENVIAR PDF</a>
+                            <a href="#" class="btn btn-m btn-full mb-3 rounded-xs text-uppercase font-900 shadow-s bg-brown-light">ENVIAR PDF</a>
                         </div>
                     </div>
                 </div>
