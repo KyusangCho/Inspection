@@ -95,7 +95,7 @@
                 </div>
 
                 <div class="input-style has-borders no-icon mb-4">
-                    <label for="form5" class="color-highlight"></label>
+                    <label for="form5" class="color-highlight">Client</label>
                     <select id="form5">
                         <option value="default" disabled selected>Select a Client</option>
                         <option value="iOS">Express</option>
@@ -118,7 +118,7 @@
                     <em>(required)</em>
                 </div>
 
-                <div class="input-style has-borders no-icon mb-4">
+                <div class="input-style input-style-always-active has-borders no-icon mb-4">
                     <label for="form1ab" class="color-theme opacity-50 text-uppercase font-700 font-10">System</label>
                     <select id="form5">
                         <option value="default" disabled selected></option>
@@ -198,12 +198,77 @@
 
                 <div class="pb-3"></div>
 
-                <form class="range-slider bottom-15 range-slider-icons">
-                    <label for="" class="color-highlight">Pcs Pull</label>
-                    <i class="fa fa-range-icon-1 fa-volume-down color-theme"></i>
-                    <i class="fa fa-range-icon-2 fa-volume-up color-theme"></i>
-                    <input class="ios-slider" type="range" value="50">
-                </form>
+                <div class="input-style has-borders no-icon mb-4">
+                    <label for="form5" class="color-highlight">MACHINERY</label>
+                    <select id="form5">
+                        <option value="default" disabled selected></option>
+                        <option value="iOS">OVERLOCK</option>
+                        <option value="Linux">COLLARETERA</option>
+                        <option value="MacOS">PLANA</option>
+                        <option value="Android">CERRADORA</option>
+                        <option value="Windows">OJALERA</option>
+                        <option value="1">SNAPS</option>
+                        <option value="2">MULTIAGUJA</option>
+                        <option value="3">ATRACADORA</option>
+                        <option value="4">FUSIONADORA</option>
+                        <option value="5">TRANSFER</option>
+                    </select>
+                    <span><i class="fa fa-chevron-down"></i></span>
+                    <i class="fa fa-check disabled valid color-green-dark"></i>
+                    <i class="fa fa-check disabled invalid color-red-dark"></i>
+                    <em></em>
+                </div>
+
+                <div class="pb-3"></div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <div class="mx-auto">
+                            <div class="stepper rounded-s float-end">
+                                <label for="form5" class="color-highlight">Pull</label>
+                                <a href="#" class="stepper-sub"><i class="fa fa-minus color-red-dark"></i></a>
+                                <input type="number" min="1" max="99" value="10">
+                                <a href="#" class="stepper-add"><i class="fa fa-plus color-green-dark"></i></a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="mx-auto">
+                            <div class="stepper rounded-s float-start">
+                                <label for="form5" class="color-highlight">Defect</label>
+                                <a href="#" class="stepper-sub"><i class="fa fa-minus color-theme opacity-40"></i></a>
+                                <input type="number" min="1" max="99" value="5">
+                                <a href="#" class="stepper-add"><i class="fa fa-plus color-theme opacity-40"></i></a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="pb-3"></div>
+
+                <div class="input-style has-borders no-icon mb-4">
+                    <label for="form5" class="color-highlight">AQL</label>
+                    <select id="form5">
+                        <option value="default" disabled selected></option>
+                        <option value="iOS">OVERLOCK</option>
+                        <option value="Linux">COLLARETERA</option>
+                        <option value="MacOS">PLANA</option>
+                        <option value="Android">CERRADORA</option>
+                        <option value="Windows">OJALERA</option>
+                        <option value="1">SNAPS</option>
+                        <option value="2">MULTIAGUJA</option>
+                        <option value="3">ATRACADORA</option>
+                        <option value="4">FUSIONADORA</option>
+                        <option value="5">TRANSFER</option>
+                    </select>
+                    <span><i class="fa fa-chevron-down"></i></span>
+                    <i class="fa fa-check disabled valid color-green-dark"></i>
+                    <i class="fa fa-check disabled invalid color-red-dark"></i>
+                    <em></em>
+                </div>
 
                 <div class="pb-3"></div>
 
@@ -212,56 +277,25 @@
 
         <div class="card card-style">
             <div class="content mb-0">
-                <h4>Stepper</h4>
-                <p>
-                    Great for shopping carts where or any place you want your user to increase the value by 1.
-                </p>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-4">
                         <div class="mx-auto">
-                            <div class="stepper rounded-s float-start">
-                                <a href="#" class="stepper-sub"><i class="fa fa-minus color-theme opacity-40"></i></a>
-                                <input type="number" min="1" max="99" value="5">
-                                <a href="#" class="stepper-add"><i class="fa fa-plus color-theme opacity-40"></i></a>
-                            </div>
-                            <div class="clearfix"></div>
+                            <a href="#" class="btn btn-m rounded-sm shadow-xl bg-highlight color-white font-900 text-uppercase">GUARDAR</a>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-4">
                         <div class="mx-auto">
-                            <div class="stepper rounded-s float-end">
-                                <a href="#" class="stepper-sub"><i class="fa fa-minus color-red-dark"></i></a>
-                                <input type="number" min="1" max="99" value="10">
-                                <a href="#" class="stepper-add"><i class="fa fa-plus color-green-dark"></i></a>
-                            </div>
-                            <div class="clearfix"></div>
+                            <a href="#" class="btn btn-m rounded-sm shadow-xl bg-highlight color-white font-900 text-uppercase">GUARDAR</a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="mx-auto">
+                            <a href="#" class="btn btn-m rounded-sm shadow-xl bg-highlight color-white font-900 text-uppercase">ENVIAR PDF</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="card card-style">
-            <div class="content mb-0">
-                <h3>Range Sliders</h3>
-                <p>
-                    Slide and increase or decrease their value.
-                </p>
-                <form class="range-slider bottom-15 range-slider-icons">
-                    <i class="fa fa-range-icon-1 fa-volume-down color-theme"></i>
-                    <i class="fa fa-range-icon-2 fa-volume-up color-theme"></i>
-                    <input class="ios-slider" type="range" value="50">
-                </form>
-                <form class="range-slider bottom-15 ">
-                    <input class="classic-slider" type="range" value="50">
-                </form>
-                <form class="range-slider">
-                    <input class="material-slider" type="range" value="50">
-                </form>
-            </div>
-        </div>
-
-
             
         <!-- footer and footer card-->
         <div class="footer" data-menu-load="menu-footer.html"></div>  
